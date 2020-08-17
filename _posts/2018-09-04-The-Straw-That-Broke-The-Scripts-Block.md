@@ -16,7 +16,7 @@ I decided to give InjectionHunter a whirl against a script module I wrote for Wi
 
 The ParseException was thrown once InjectionHunter hit a script file, Start-Countdown.ps1 (it counts backwards based on the time you specify):
 
-![ParseException caught by InjectionHunter caused by incorrect decrement character in for loop](https://aarontheadmin.github.io/assets/imgparseexception.png "ParseException Caught by InjectionHunter")
+![ParseException caught by InjectionHunter caused by incorrect decrement character in for loop](https://aarontheadmin.github.io/assets/img/parseexception.png "ParseException Caught by InjectionHunter")
 
 There were a few errors after this but for brevity sake, only the first one is shown here.
 
@@ -24,19 +24,19 @@ This ParseError was obviously pointing to one or more conflicting characters but
 
 Opening the script file in Visual Studio Code (in Windows), I found the straw. Glancing at the for() loop on line 28 (as per the ParseException) didn't offer an obvious clue because everything appeared correct. But honing in on the decrement operator, the left "-" is slightly longer in size than the right "-":
 
-![Visual Studio Code: For loop containing incorrect decrement character](https://aarontheadmin.github.io/assets/imgvscode-bad-char.png "Visual Studio Code: For loop containing incorrect decrement character")
+![Visual Studio Code: For loop containing incorrect decrement character](https://aarontheadmin.github.io/assets/img/vscode-bad-char.png "Visual Studio Code: For loop containing incorrect decrement character")
 
 Copying and pasting into Notepad reflects the same thing:
 
-![Notepad - For loop containing incorrect decrement character](https://aarontheadmin.github.io/assets/imgnotepad.png "Notepad - For loop containing incorrect decrement character")
+![Notepad - For loop containing incorrect decrement character](https://aarontheadmin.github.io/assets/img/notepad.png "Notepad - For loop containing incorrect decrement character")
 
 It reminds me of the auto-formatting of hyphens in Microsoft Word when hitting a space afterwards. Clearly, there is no space added here.
 
 By replacing this conflicting character with the correct one (manual typing), InjectionHunter completes without throwing the ParseException:
 
-![Visual Studio Code: For loop containing fixed decrement character](https://aarontheadmin.github.io/assets/imgfixed.png "Visual Studio Code: For loop containing fixed decrement character")
+![Visual Studio Code: For loop containing fixed decrement character](https://aarontheadmin.github.io/assets/img/fixed.png "Visual Studio Code: For loop containing fixed decrement character")
 
-![InjectionHunter - No ParseException](https://aarontheadmin.github.io/assets/imginjectionhunter-no-parseexception.png "InjectionHunter - No ParseException")
+![InjectionHunter - No ParseException](https://aarontheadmin.github.io/assets/img/injectionhunter-no-parseexception.png "InjectionHunter - No ParseException")
 
 No more ParseException! With the correct-size straw, this <del>camel</del> script block can now function without a grunt.
 
