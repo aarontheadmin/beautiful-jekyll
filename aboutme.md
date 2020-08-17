@@ -1,4 +1,4 @@
 ---
 layout: page
-title: Aaron the Admin | About me
+title: About me
 ---
