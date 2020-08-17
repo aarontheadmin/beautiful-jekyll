@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "Get-Random with Excluded Numbers"
 author_profile: true
 date: 2017-11-13
