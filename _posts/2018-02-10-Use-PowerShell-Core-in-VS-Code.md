@@ -1,15 +1,7 @@
 ---
-layout: single
-title: "Use PowerShell Core in VS Code"
-author_profile: true
-date: 2018-02-10
-comments: true
-tags:
-  - "Visual Studio Code"
-  - terminal.integrated.shell.windows
-  - pwsh.exe
-category:
-  - PowerShell
+layout: post
+title: Use PowerShell Core in VS Code
+tags: [Visual Studio Code, terminal.integrated.shell.windows, pwsh.exe]
 ---
 
 The movement to PowerShell Core is gaining popularity, along with the wide-spreading use of Visual Studio Code; especially as Microsoft has confirmed Windows PowerShell will no longer have new releases (just support for the current).Here I will show you how to change the PowerShell executable in VS Code (on Windows), under Workspace Settings.

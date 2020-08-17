@@ -1,14 +1,7 @@
 ---
-layout: single
+layout: post
 title: "PowerShell Core: Updating PSModulePath from Windows PowerShell PSModulePath"
-author_profile: true
-date: 2017-11-11
-comments: true
-tags:
-  - "powershell core"
-  - psmodulepath
-category:
-  - PowerShell
+tags: [powershell core, psmodulepath]
 ---
 
 The PowerShell gallery has a <a href="https://www.powershellgallery.com/packages/WindowsPSModulePath/1.0.0" target="_blank">script module</a> (credit: Steve Lee [MSFT]) you can install that appends your Windows PSModulePath contents to the PSModulePath in PowerShell Core. This lets you access modules in any of those Windows PSModulePaths within PowerShell Core, including your custom modules.

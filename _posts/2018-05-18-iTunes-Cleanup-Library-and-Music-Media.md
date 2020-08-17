@@ -1,15 +1,7 @@
 ---
-layout: single
-title: "iTunes Cleanup (Library and Music Media)"
-author_profile: true
-date: 2018-05-18
-comments: true
-tags:
-  - "PowerShell Core"
-  - iTunes
-  - macOS
-category:
-  - PowerShell
+layout: post
+title: iTunes Cleanup (Library and Music Media)
+tags: [PowerShell Core, iTunes, macOS]
 ---
 
 I've been writing a PowerShell module that handles the automation of live streaming on an iMac running macOS 10.13 using Wirecast, iTunes and some other tools.

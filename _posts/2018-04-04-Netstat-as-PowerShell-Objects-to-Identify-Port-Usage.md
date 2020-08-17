@@ -1,15 +1,7 @@
 ---
-layout: single
-title: "Netstat as PowerShell Objects to Identify Port Usage"
-author_profile: true
-date: 2018-04-04
-comments: true
-tags:
-  - "Windows PowerShell"
-  - netstat
-  - Windows
-category:
-  - PowerShell
+layout: post
+title: Netstat as PowerShell Objects to Identify Port Usage
+tags: [Windows PowerShell, netstat, Windows]
 ---
 
 This post covers how to dump netstat output into Windows PowerShell objects for easier management and investigation purposes. This can be helpful if you're trying to find out what port is being used with a given IP address on current TCP connections.

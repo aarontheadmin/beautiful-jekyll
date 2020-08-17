@@ -1,16 +1,7 @@
 ---
-layout: single
-title: "Double-Click .command File to Execute PowerShell Core Script"
-author_profile: true
-date: 2018-03-09
-comments: true
-tags:
-  - "PowerShell Core"
-  - .command
-  - bash
-  - macOS
-category:
-  - PowerShell
+layout: post
+title: Double-Click .command File to Execute PowerShell Core Script
+tags: [PowerShell Core, .command, bash, macOS]
 ---
 
 Sometimes, double-clicking a file on the desktop to execute a script makes it much more convenient to accomplish something, even though it has its security implications. This post covers how to do that with Powershell Core and .commands files in macOS.

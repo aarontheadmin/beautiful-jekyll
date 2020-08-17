@@ -1,16 +1,7 @@
 ---
-layout: single
-title: "PowerShell Core: Get TCP Connections on macOS"
-author_profile: true
-date: 2018-07-09
-comments: true
-tags:
-  - "PowerShell Core"
-  - tcp
-  - macOS
-  - lsof
-category:
-  - PowerShell
+layout: post
+title: PowerShell Core: Get TCP Connections on macOS
+tags: [PowerShell Core, tcp, macOS, lsof]
 ---
 
 Getting active TCP connections can tell about what might be going on between applications and systems, and even help with network troubleshooting. As of PowerShell Core 6.0.2, there is no built-in cmdlet for getting TCP connections (unlike in Windows PowerShell - Get-NetTCPConnection) but with a little work, we can author our own function to get similar information on macOS.

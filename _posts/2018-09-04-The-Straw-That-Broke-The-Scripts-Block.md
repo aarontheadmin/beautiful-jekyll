@@ -1,18 +1,7 @@
 ---
-layout: single
-title: "The Straw That Broke The Script's Block"
-author_profile: true
-date: 2018-09-04
-tags:
-  - PowerShell
-  - InjectionHunter
-  - macOS
-  - Windows
-  - "Visual Studio Code"
-  - characterset
-comments: true
-category:
-  - PowerShell
+layout: post
+title: The Straw That Broke The Script's Block
+tags: [PowerShell, InjectionHunter, macOS, Windows, Visual Studio Code, characterset]
 ---
 
 This is a reminder to be mindful when copying and pasting code from an external source. I've been putting InjectionHunter to use and encountered "the straw that broke the ~~camel's back~~ script's block." It shows how well designed this module is (thanks [@Lee_Holmes!](https://twitter.com/Lee_Holmes))

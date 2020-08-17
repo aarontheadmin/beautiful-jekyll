@@ -1,14 +1,7 @@
 ---
-layout: single
+layout: post
 title: "Converting Celsius to Fahrenheit, Vice-Versa"
-author_profile: true
-date: 2018-08-30
-comments: true
-tags:
-  - PowerShell
-  - "temperature conversion"
-category:
-  - PowerShell
+tags: [PowerShell, temperature conversion]
 ---
 
 There are a few ways to converting Celsius to Fahrenheit, vice-versa, but here is a simple, advanced function that can do it for you.

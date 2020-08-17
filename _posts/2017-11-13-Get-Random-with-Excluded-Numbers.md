@@ -1,16 +1,7 @@
 ---
 layout: post
-title: "Get-Random with Excluded Numbers"
-author_profile: true
-date: 2017-11-13
-comments: true
-tags:
-  - Get-Random
-  - "number exclusions"
-  - ArrayList
-  - IndexOf()
-category:
-  - PowerShell
+title: Get-Random with Excluded Numbers
+tags: [Get-Random, number exclusions, ArrayList, IndexOf()]
 ---
 
 An interesting question came up about using the ```Get-Random``` cmdlet to return a random number but with a predefined list of numbers to exclude.

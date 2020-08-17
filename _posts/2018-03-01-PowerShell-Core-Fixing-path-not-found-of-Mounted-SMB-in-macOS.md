@@ -1,17 +1,7 @@
 ---
-layout: single
+layout: post
 title: "PowerShell Core: Fixing 'path not found' of Mounted SMB in macOS"
-author_profile: true
-date: 2018-03-01
-comments: true
-tags:
-  - "PowerShell Core"
-  - macos
-  - smb
-  - "path not found"
-  - mount
-category:
-  - PowerShell
+tags: [PowerShell Core, macos, smb, path not found, mount]
 ---
 
 Automation on the Mac is great, when it works. And it can, in this case. In this post, we'll cover an issue where scripts resolving **SMB paths fail** with the **'path not found'** error message, yet those same **shares ARE accessible within the GUI**. Confusing and frustrating? This is critical if you're trying to automate data transfers to network locations using SMB.

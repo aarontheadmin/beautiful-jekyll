@@ -1,18 +1,7 @@
 ---
-layout: single
-title: "OpenSSH Remoting Broken After PowerShell Upgrade"
-author_profile: true
-date: 2018-06-05
-comments: true
-tags:
-  - "PowerShell Core"
-  - remoting
-  - Win32_OpenSSH
-  - macOS
-  - Windows
-  - PSSessionOpenFailed
-category:
-  - PowerShell
+layout: post
+title: OpenSSH Remoting Broken After PowerShell Upgrade
+tags: [PowerShell Core, remoting, Win32_OpenSSH, macOS, Windows, PSSessionOpenFailed]
 ---
 
 PowerShell Remoting in PowerShell Core has transformed the way Windows can communicate with other operating systems like Linux and macOS, and accomplish tasks using PowerShell and Bash as though you're physically present on that disparate system. This has been accomplished by combining PowerShell Core and the Win32 port of OpenSSH.

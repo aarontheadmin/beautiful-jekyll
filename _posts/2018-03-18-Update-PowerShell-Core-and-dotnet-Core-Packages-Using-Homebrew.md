@@ -1,17 +1,7 @@
 ---
-layout: single
-title: "Update PowerShell Core and .NET Core Packages Using Homebrew"
-author_profile: true
-date: 2018-03-18
-comments: true
-tags:
-  - "PowerShell Core"
-  - dotnetcore
-  - Homebrew
-  - upgrade
-  - macOS
-category:
-  - PowerShell
+layout: post
+title: Update PowerShell Core and .NET Core Packages Using Homebrew
+tags: [PowerShell Core, dotnetcore, Homebrew, upgrade, macOS]
 ---
 
 With the recent CVE bulletin, Microsoft Security Advisory CVE-2018-0875: Hash Collision can cause Denial of Service, it warrants us to update PowerShell Core to 6.0.2 and .NET Core to 2.0.6.
