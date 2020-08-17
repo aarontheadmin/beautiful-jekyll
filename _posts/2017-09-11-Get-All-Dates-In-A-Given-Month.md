@@ -1,15 +1,7 @@
 ---
-layout: single
-title: "Get All Dates In A Given Month"
-author_profile: true
-date: 2017-09-11
-comments: true
-tags:
-  - powershell
-  - datetime
-  - month
-category:
-  - PowerShell
+layout: post
+title: Get All Dates In A Given Month
+tags: [powershell, datetime, month]
 ---
 
 This post shows you how to use PowerShell to get actual dates for a given month, not just how many days are in that month.
