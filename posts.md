@@ -6,6 +6,17 @@ title: Posts
 <div style='line-height: 2.0;'>
   <a href="{{ post.url }}">{{ post.title }}</a><br/>
   {{ post.date }}<br/>
-  {{ post.tags }}
+  {% if page.tags.size > 0 %}
+        <div class="blog-tags">
+          Tags:
+          {% if site.link-tags %}
+          {% for tag in page.tags %}
+            <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
+          {% endfor %}
+          {% else %}
+            {{ page.tags | join: ", " }}
+          {% endif %}
+        </div>
+      {% endif %}
 </div>
 {% endfor %}
