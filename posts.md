@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Posts
+title: Postss
 ---
 <div class="post" style='line-height: 200%;'>
-    <ul>
+    <ul style='line-height: 200%;'>
         {% for post in site.posts %}
             {% unless post.next %}
                 <h3>{{ post.date | date: '%Y %b' }}</h3>
