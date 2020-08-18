@@ -7,7 +7,7 @@ title: Posts
   <a href="{{ post.url }}">{{ post.title }}</a><br/>
   {{ post.date }}<br/>
   {% if page.tags.size > 0 %}
-        <div class="blog-tags">
+        <div class="blog-tags-small">
           Tags:
           {% if site.link-tags %}
           {% for tag in page.tags %}
