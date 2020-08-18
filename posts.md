@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Postss
+title: Posts
 ---
 {% for post in site.posts %}
 <div style='line-height: 2.0;'>
