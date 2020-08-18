@@ -2,7 +2,7 @@
 layout: page
 title: Posts
 ---
-<div class="post" style='line-height:20px;'>
+<div class="post" style='line-height: 125%;'>
     <ul>
         {% for post in site.posts %}
             {% unless post.next %}
