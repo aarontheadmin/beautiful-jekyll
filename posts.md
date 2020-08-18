@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Posts
+title: Postss
 ---
 {% for post in site.posts %}
 <div style='line-height: 2.0;'>
   <a href="{{ post.url }}">{{ post.title }}</a><br/>
   {{ post.date }}<br/>
   {% if page.tags.size > 0 %}
-        <div class="blog-tags-small">
+        <div>
           Tags:
           {% if site.link-tags %}
           {% for tag in page.tags %}
