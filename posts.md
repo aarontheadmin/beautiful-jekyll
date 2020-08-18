@@ -8,5 +8,5 @@ title: Posts
   <br />
   <span style='color: #808080; font-size: 0.75em'>{{ post.date | date_to_long_string }}</span>
 </div>
-<div style='line-height: 2.0;'>&nbsp;</div>
+<div style='line-height: 1.5;'>&nbsp;</div>
 {% endfor %}
