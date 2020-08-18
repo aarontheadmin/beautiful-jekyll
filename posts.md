@@ -4,6 +4,6 @@ title: Posts
 ---
 {% for post in site.posts %}
 <div><a href="{{ post.url }}">{{ post.title }}</a></div>
-<span style='color: #808080; font-size: 0.5em'>{{ post.date | date_to_long_string }}</span>
+<span style='color: #808080; font-size: 0.75em'>{{ post.date | date_to_long_string }}</span>
 <div style='line-height: 2.0;'>&nbsp;</div>
 {% endfor %}
