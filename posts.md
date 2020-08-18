@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Posts
+title: Postss
 ---
 <ul>
   {% for post in site.posts %}
-    <li>
+    <li style='line-spacing: 1.5'>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
