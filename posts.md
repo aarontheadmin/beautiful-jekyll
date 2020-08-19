@@ -2,6 +2,7 @@
 layout: page
 title: Posts
 ---
+
 {% assign postsByYear =
     site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
 {% for year in postsByYear %}
