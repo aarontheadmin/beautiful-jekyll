@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PowerShell Core: Get TCP Connections on macOS
+title: "PowerShell Core: Get TCP Connections on macOS"
 tags: [PowerShell Core, tcp, macOS, lsof]
 ---
 
