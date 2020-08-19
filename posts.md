@@ -2,11 +2,13 @@
 layout: page
 title: Posts
 ---
-{% for post in site.posts %}
-  {% assign currentdate = post.date | date: "%Y" %}
-  {% if currentdate != date %}
-    <li id="y{{currentdate}}">{{ currentdate }}</li>
-    {% assign date = currentdate %} 
-  {% endif %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% assign postsByYear =
+    site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% for year in postsByYear %}
+  <h1>{{ year.name }}</h1>
+    <ul>
+      {% for post in year.items %}
+        <li><a href="{{ post.url }}">{{ post.title }}-{{ post.date }}</a></li>
+      {% endfor %}
+    </ul>
 {% endfor %}
