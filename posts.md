@@ -2,14 +2,11 @@
 layout: post
 title: Posts
 ---
-
-<h1>Archive of posts from {{ page.date | date: "%Y" }}</h1>
-
-<ul class="posts">
-{% for post in page.posts %}
-  <li>
-    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  </li>
+{% for post in site.posts %}
+<div>
+  <a href="{{ post.url }}"><h2 class="post-title">{{ post.title }}</h2></a>
+  <br />
+  <span class="post-meta"><em>{{ post.date | date_to_long_string }}</em></span>
+</div>
+<div style='line-height: 1.5;'>&nbsp;</div>
 {% endfor %}
-</ul>
