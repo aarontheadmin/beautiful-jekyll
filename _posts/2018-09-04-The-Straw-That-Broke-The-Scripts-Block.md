@@ -9,7 +9,7 @@ This is a reminder to be mindful when copying and pasting code from an external 
 
 | Straw | Script block |
 --- | ---
-| part of the decrement operator ```- -``` | a ```for()``` loop |
+| part of the decrement operator ```--``` | a ```for()``` loop |
 
 
 I decided to give InjectionHunter a whirl against a script module I wrote for Wirecast on macOS, but my playground for this was my Windows laptop with a current version of the module. Out of many, many script files, three items came up with the Severity of "Warning" and it ended with a ParseException. Really? InjectionHunter is bugged! Nope.
